@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Infra.Security", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Presentation.MVC", "RumosCRE.Presentation.MVC\RumosCRE.Presentation.MVC.csproj", "{21337210-E291-47B4-A62F-32C6CD060C51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Services.API", "RumosCRE.Services.API\RumosCRE.Services.API.csproj", "{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{21337210-E291-47B4-A62F-32C6CD060C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21337210-E291-47B4-A62F-32C6CD060C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21337210-E291-47B4-A62F-32C6CD060C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{EFFC447B-F170-4419-9872-30834F05F43C} = {F70B8D69-E0E1-49C3-9B24-657CB4137BC6}
 		{61CEC6C4-F8C2-4B6C-B2CC-47D7E49DE5A1} = {BD72C987-F825-4E67-A689-AB91FAF1572A}
 		{21337210-E291-47B4-A62F-32C6CD060C51} = {1EB156D1-F5E0-4A52-94F4-E0131AD3AD2D}
+		{1CA49967-D6DE-48DD-AD66-ACAE4D8AC53D} = {1D960C28-7901-4CD7-8A7F-41905731EE23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A40A6D7D-E8D4-4F91-9129-FDA374582D06}
