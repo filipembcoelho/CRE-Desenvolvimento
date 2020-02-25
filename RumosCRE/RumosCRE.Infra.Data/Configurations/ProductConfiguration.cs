@@ -18,7 +18,9 @@ namespace RumosCRE.Infra.Data.Configurations
 
         private void PropertiesSettings(EntityTypeBuilder<Product> builder)
         {
-
+            builder
+                .Property(p => p.Value)
+                .HasColumnType("decimal(18,2)");
         }
 
         private void RelationsShipsSettings(EntityTypeBuilder<Product> builder)
