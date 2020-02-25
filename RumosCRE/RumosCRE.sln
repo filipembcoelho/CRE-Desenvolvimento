@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Infra.Bus", "Rumos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Infra.IoC", "RumosCRE.Infra.IoC\RumosCRE.Infra.IoC.csproj", "{EA010546-132A-4876-8703-8E0612156EEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosCRE.Infra.Data", "RumosCRE.Infra.Data\RumosCRE.Infra.Data.csproj", "{AC4B13AF-48FE-4330-97F5-25DA5063B727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{EA010546-132A-4876-8703-8E0612156EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA010546-132A-4876-8703-8E0612156EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA010546-132A-4876-8703-8E0612156EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4B13AF-48FE-4330-97F5-25DA5063B727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4B13AF-48FE-4330-97F5-25DA5063B727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4B13AF-48FE-4330-97F5-25DA5063B727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4B13AF-48FE-4330-97F5-25DA5063B727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{31326828-DE68-4842-9E4C-BB8E818F46C0} = {EA4519AD-3CA5-4FC7-9420-3550938B25A1}
 		{F0C0D264-A684-4947-A7D2-474C9B1C3040} = {FE40C556-AFED-4920-99CA-914EB79D987C}
 		{EA010546-132A-4876-8703-8E0612156EEC} = {FE40C556-AFED-4920-99CA-914EB79D987C}
+		{AC4B13AF-48FE-4330-97F5-25DA5063B727} = {F70B8D69-E0E1-49C3-9B24-657CB4137BC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A40A6D7D-E8D4-4F91-9129-FDA374582D06}
