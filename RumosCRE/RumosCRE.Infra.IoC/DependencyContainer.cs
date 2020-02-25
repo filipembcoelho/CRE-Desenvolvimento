@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RumosCRE.Domain.Interfaces;
 using RumosCRE.Infra.Data.Context;
+using RumosCRE.Infra.Data.Repositories;
 
 namespace RumosCRE.Infra.IoC
 {
@@ -10,6 +12,12 @@ namespace RumosCRE.Infra.IoC
 
         public static void RegisterServices(this IServiceCollection services)
         {
+            // Repositories
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IInvoiceLineRepository, InvoiceLineRepository>();
+            services.AddScoped<IInvoiceRepository, InvoiceRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
 
         }
 

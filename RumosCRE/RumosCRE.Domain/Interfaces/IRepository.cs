@@ -12,6 +12,6 @@ namespace RumosCRE.Domain.Interfaces
         Task<TEntity> GetById(TId id);
         void Add(TEntity obj);
         void Update(TEntity obj);
-        void Remove(TEntity id);
+        void Remove(TEntity obj);
     }
 }
